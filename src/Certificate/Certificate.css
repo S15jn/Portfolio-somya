@@ -1,0 +1,56 @@
+.certificate-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* Adjust as needed */
+  margin: 0 auto; /* Center the slider on the page */
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 300px; /* Card width */
+  margin: 0 10px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.nav-button {
+  background: linear-gradient(to right, #5f61ff, #00d3c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 6vh;
+  margin: 0 10px;
+  z-index: 2;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.nav-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.inactive {
+  opacity: 0;
+  pointer-events: none;
+}

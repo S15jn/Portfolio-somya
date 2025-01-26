@@ -1,0 +1,137 @@
+
+@keyframes scale-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.topgrid {
+    top: -5vh;
+    left: -10vh;
+    animation: scale-animation 2s infinite ease-in-out;
+    transform-origin: center;
+    background-color: transparent;
+}
+
+img {
+    width: 100vh;
+    height: 50vh;
+    border: none;
+    background-color: transparent;
+}
+.dwonloadbtn:hover{
+    transform: scale(1.3);
+
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+  }
+  .btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+  
+.title {
+    background-color: transparent;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logosvg {
+    background: transparent;
+    border: none;
+}
+
+.proession {
+    background: linear-gradient(to right, #5f61ff, #00d3c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.wave {
+    color: #0fbdff;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg);
+    }
+    10% {
+        transform: rotate(14.0deg);
+    }
+    20% {
+        transform: rotate(-8.0deg);
+    }
+    30% {
+        transform: rotate(14.0deg);
+    }
+    40% {
+        transform: rotate(-4.0deg);
+    }
+    50% {
+        transform: rotate(10.0deg);
+    }
+    60% {
+        transform: rotate(0.0deg);
+    }
+    100% {
+        transform: rotate(0.0deg);
+    }
+}

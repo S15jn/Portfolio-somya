@@ -1,0 +1,36 @@
+img{
+    border:  1px solid #cfe0da;
+    border-radius: 50px;
+   width: 400px;
+   height: 200px;
+    padding: 2px;
+
+}
+image{
+    width: 100vh;
+    height: 20vh;
+
+}
+image:hover{
+    filter:blur(5px);
+    cursor: col-resize;
+    scale: 2;
+}
+
+.short{
+    width: 15vh;
+    height: 30vh;
+ 
+
+}
+.short img{
+    width: 250px;
+    height: 50px;
+    
+}
+
+.down{
+    padding-top: 30vh;
+}
+
+

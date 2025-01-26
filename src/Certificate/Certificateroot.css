@@ -1,0 +1,31 @@
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+  }
+  
+  .animate-scale {
+    animation: scaleUp 1s ease-in-out infinite;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+      transform: rotate(45deg);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.7);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 1;
+      color: yellow;
+      
+    }
+  }
+  

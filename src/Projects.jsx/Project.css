@@ -1,0 +1,50 @@
+.Circle{
+    background-color: transparent;
+    margin-left: 3vh;
+    
+}
+
+  
+  .drop-down-animation {
+    position: absolute;
+   
+    transform: translateX(-50%);
+    animation: dropDown 3s ease-in-out infinite; /* Infinite animation */
+  }
+  .drop-down-slow-animation {
+    position: absolute;
+   
+    transform: translateX(-50%);
+    animation: dropDownslow 3s ease-in-out infinite; /* Infinite animation */
+  }
+  
+  @keyframes dropDown {
+    0% {
+      top: -100px; /* Start above the viewport */
+      opacity: 0;
+       /* Hidden at start */
+    }
+    50% {
+      opacity: 1; /* Fade in */
+    }
+    100% {
+      top: 16%; /* Drop below the viewport */
+      opacity: 0; /* Fade out */
+    }
+  }
+  @keyframes dropDownslow {
+    0% {
+      top: 16%; /* Drop below the viewport */
+      opacity: 0; /* Fade out */
+      
+    }
+    50% {
+      opacity: 1; /* Fade in */
+    }
+    100% {
+      top: -100px; /* Start above the viewport */
+      opacity: 0;
+       /* Hidden at start */
+    }
+  }
+  

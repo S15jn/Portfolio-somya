@@ -1,0 +1,21 @@
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+@keyframes rotatereverse {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .animate-rotate {
+    animation: rotate 5s linear infinite;
+  }
+  .animate-rotaterev {
+    animation: rotatereverse 5s linear infinite;
+  }
+
+  .Donut{
+    background-color: transparent;
+   margin: 2px 30vh;
+   padding: 5px;
+  }
