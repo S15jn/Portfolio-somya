@@ -17,7 +17,7 @@ export default function Projectroot() {
      <Projectname Pname={"Ochi"}/>
           <div className='flex justify-items-center justify-evenly flex-wrap mt-3'>
           
-          <Projectset SSimg={SSochi} Simg={sochi} Limg={ochi1}/>
+          <Projectset SSimg={SSochi} Simg={sochi} Limg={ochi1} />
          <Projecttech skills={['react','javascript','css','tailwind']}/>
          <Projectbtn link={"https://github.com/S15jn/Ochi_Project"} live={"https://ochi-project-nine.vercel.app/"}/>
        

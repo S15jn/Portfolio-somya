@@ -4,47 +4,49 @@
     
 }
 
-  
+.btn-toggle{
+  border: '2px soild #586afa';
+}
   .drop-down-animation {
     position: absolute;
    
     transform: translateX(-50%);
-    animation: dropDown 3s ease-in-out infinite; /* Infinite animation */
+    animation: dropDown 3s ease-in-out infinite;
   }
   .drop-down-slow-animation {
     position: absolute;
    
     transform: translateX(-50%);
-    animation: dropDownslow 3s ease-in-out infinite; /* Infinite animation */
+    animation: dropDownslow 3s ease-in-out infinite; 
   }
   
   @keyframes dropDown {
     0% {
-      top: -100px; /* Start above the viewport */
+      top: -100px; 
       opacity: 0;
-       /* Hidden at start */
+     
     }
     50% {
-      opacity: 1; /* Fade in */
+      opacity: 1; 
     }
     100% {
-      top: 16%; /* Drop below the viewport */
-      opacity: 0; /* Fade out */
+      top: 16%; 
+      opacity: 0;
     }
   }
   @keyframes dropDownslow {
     0% {
-      top: 16%; /* Drop below the viewport */
-      opacity: 0; /* Fade out */
+      top: 16%; 
+      opacity: 0; 
       
     }
     50% {
-      opacity: 1; /* Fade in */
+      opacity: 1; 
     }
     100% {
-      top: -100px; /* Start above the viewport */
+      top: -100px; 
       opacity: 0;
-       /* Hidden at start */
+      
     }
   }
   

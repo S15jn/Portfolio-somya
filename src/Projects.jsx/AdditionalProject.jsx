@@ -20,7 +20,7 @@ export default function AdditionalProject() {
                
                <Projectset  Limg={soms} Simg={somport} SSimg={ssomport}/>
               <Projecttech skills={['react','javascript','tailwind Css','css']}/>
-              <Projectbtn/>
+              <Projectbtn link={"https://github.com/S15jn/Portfolio-somya"} live={"https://portfolio-somya.vercel.app/"}/>
                  
                </div>
               

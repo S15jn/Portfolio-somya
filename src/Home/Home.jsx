@@ -35,7 +35,7 @@ export default function Home() {
       
 
       {/* Logo Section */}
-      <div className="logo md:w-1/2 flex justify-center items-center">
+      <div className="logo md:w-1/2 flex justify-center items-center flex-wrap">
         <img src={logo} alt="img" className="logosvg w-[50vh] h-[50vh] md:w-[70vh] md:h-[70vh]" />
       </div>
     </div>

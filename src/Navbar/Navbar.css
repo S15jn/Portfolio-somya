@@ -48,11 +48,15 @@ body, html {
   transition: color 0.3s ease;
   background-color: transparent;
   backdrop-filter: blur(8px);
+  font-size: large;
 }
 
 .nav-items li a:hover, .nav-items li a.active {
-  color: #7dad3f;
+  /* color: #7dad3f; */
   font-weight: bold;
+  font-style: italic;
+ text-decoration:  underline 3px #7dad3f;
+ text-underline-offset: 8px;
 }
 
 

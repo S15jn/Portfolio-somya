@@ -22,19 +22,19 @@ export default function Project() {
       <Circle
       className='Circle left-9  drop-down-animation'
     color="linear-gradient(135deg, #a5b4fc, #6366f1)"
-    size={['120px', '120px', '130px', '130px']}
+    size={['50px', '50px', '6px', '60px']}
     zIndex={2}
 />
       <Circle
       className='Circle right-1 place-content-end justify-end  drop-down-animation'
     color="linear-gradient(135deg, #a5b4fc, #6366f1)"
-    size={['120px', '120px', '130px', '130px']}
+    size={['50px', '50px', '60px', '60px']}
     zIndex={2}
 />
 <Circle
 className='Circle right-5 drop-down-slow-animation'
     color="linear-gradient(135deg, #a5b4fc, #6366f1)"
-    size={['100px', '100px', '110px', '110px']}
+    size={['50px', '50px', '60px', '60px']}
     zIndex={2}
 />
       <Projectroot />
@@ -45,12 +45,12 @@ className='Circle right-5 drop-down-slow-animation'
       )}
       <button
         onClick={toggleProjects}
-        className="btn-toggle flex items-center justify-center mt-8 rounded-3xl"
+        className="btn-toggle  flex items-center justify-center mt-8 rounded-3xl"
         style={{
           padding: '10px 20px',
-          backgroundColor: '#b8e6fe',
+       
           color: '0f172b',
-          border: 'none',
+         
          
           cursor: 'pointer',
         }}
