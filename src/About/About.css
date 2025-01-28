@@ -1,122 +1,111 @@
-
 .abt {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.shine {
+  box-shadow: 2px 8px 5px #0fbdff;
+  transition: box-shadow 0.3s;
  
+}
+.shine  h3{
+  background-color: transparent;
+}
+
+.shine:hover {
+  box-shadow: none;
+}
+
+.shine h3:hover {
+  color: #0fbdff;
+}
+
+.studies {
+  transition: box-shadow 0.3s;
+}
+
+.studies:hover {
+  box-shadow: 10px 10px 10px #0fbdff;
+  background-color: aliceblue;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.avatar-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  animation: borderanim 1s infinite;
+}
+
+.avatar-image:hover {
+  transform: scale(1.1);
+}
+
+.centered {
+  position: absolute;
+  padding-top: 1vh;
+ 
+  -webkit-text-stroke: 1px #000;
+}
+
+.Click {
+  color: #44c0ff;
+  font-size: xx-large;
+}
+
+.scaleup-animation {
+  animation: scaleup 3s infinite;
+}
+
+@keyframes borderanim {
+  50% {
+    border-left: 2px solid #44c0ff;
+    border-right: 2px solid #44c0ff;
+  }
+  100% {
+    border-top: 2px solid #44c0ff;
+    border-bottom: 2px solid #44c0ff;
+  }
+}
+
+@keyframes scaleup {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
   .shine {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60vh;
-    height: min-content;
-    padding: 5px;
-    box-shadow: 2px 8px 5px #0fbdff;
+    width: 90%;
+    margin: 10px;
   }
-  
-  .shine:hover {
-    box-shadow: none;
-    
-  }
-  .shine h3:hover {
-    color: #0fbdff;
-    
-  }
+
   .studies {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60vh;
-  }
-  .studies ul,li,strong{
-    background-color: transparent;
-  }
-  .studies:hover{
-    box-shadow: 10px 10px 10px #0fbdff;
-    background-color: aliceblue;
+    width: 90%;
   }
 
-  .img-container {
-    position: relative;
-    place-items: centre;
-    justify-content: center;
-    justify-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-centre; 
-    width: 100%;
-    background-color: transparent;
-  }
-  
   .avatar-image {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 50%; 
-    
-    animation: borderanim  1s infinite;
-    background-color: transparent;
+    width: 150px;
+    height: 150px;
   }
-  
-  .avatar-image:hover {
-    transform: scale(1.1); 
-  }
-  
+
   .centered {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    padding-top: 4vh;
-    color: #bad0ff;
-    -webkit-text-stroke: 1px #000;
-    background-color: transparent;
-  
-   
+    font-size: 1.2rem;
   }
- 
-  .Click{
-    background-color: transparent;
-    color: #44c0ff;
-    font-size: xx-large;
-   
-    
-  }
-  .scaleup-animation{
-    animation: scaleup 3s infinite ;
-   }
-  
-   
-   @keyframes borderanim {
-    50%{
-      border-left:2px solid #44c0ff;
-      border-right:2px solid #44c0ff ;
-      
-    }
-    100%{
-     
-      border-top: 2px solid #44c0ff;
-      border-bottom: 2px solid #44c0ff;
-    }
-    
-   }
-
-   @keyframes  scaleup {
-    0%{
-      transform: scale(1.2);
-    }
-    50%{
-      transform: scale(1);
-    }
-    100%{
-      transform: scale(0);
-    }
-    
-   }
-
-  
+}

@@ -25,7 +25,7 @@ export default function Home() {
             <MdWavingHand />
           </span>
         </h3>
-        <h1 className="text-[12vh] md:text-[16vh] text-teal-700 p-4 proession">
+        <h1 className="text-[12vh] lg:text-[18vh] md:text-[16vh] sm:text-[13vh] text-teal-700 p-4 proession">
           Full Stack Developer
         </h1>
         <div className="download inline-block">
