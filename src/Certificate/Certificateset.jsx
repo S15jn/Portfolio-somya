@@ -51,17 +51,15 @@ export default function Certificateset({ certificates }) {
                 className="card-image"
               />
               <div className="content">
-                <h3 className="text-center text-2xl underline italic uppercase">
+                <h3 className="text-center text-2xl  capitalize">
                   {certificate.Cname}
                 </h3>
               </div>
               <div className="btn-container">
-                <button
-                  onClick={() => handlePopupOpen(certificate)}
-                  className="button"
-                >
-                  View
-                </button>
+                
+                 <button class="custom-btn btn-12"  onClick={() => handlePopupOpen(certificate)}
+                  className="button"><span>Click!</span><span>View</span></button>
+               
               </div>
             </div>
           </div>
@@ -80,13 +78,13 @@ export default function Certificateset({ certificates }) {
       {popupData && (
         <div className="popup-overlay">
           <div className="popup-window">
-            <h2>{popupData.Cname}</h2>
+            <h2 className="no-underline">{popupData.Cname}</h2>
             <img
               src={popupData.Cimg || notfound}
               alt="Certificate"
               className="popup-image"
             />
-            <p>{popupData.Cdes}</p>
+            <p className="capitalize">{popupData.Cdes}</p>
             <button onClick={handlePopupClose} className="popup-close-button">
               Close
             </button>

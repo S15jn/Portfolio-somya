@@ -25,7 +25,7 @@ export default function Home() {
             <MdWavingHand />
           </span>
         </h3>
-        <h1 className="text-[12vh] lg:text-[18vh] md:text-[16vh] sm:text-[13vh] text-teal-700 p-4 proession">
+        <h1 className="text-[9vh] lg:text-[18vh] md:text-[16vh] sm:text-[13vh] text-teal-700 p-4 proession">
           Full Stack Developer
         </h1>
         <div className="download inline-block">
@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* Logo Section */}
       <div className="logo md:w-1/2 flex justify-center items-center flex-wrap">
-        <img src={logo} alt="img" className="logosvg w-[50vh] h-[50vh] md:w-[70vh] md:h-[70vh]" />
+        <img src={logo} alt="img" className="logosvg w-full h-full " />
       </div>
     </div>
   );

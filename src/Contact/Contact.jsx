@@ -19,10 +19,10 @@ export default function Contact() {
 
       <footer className="flex flex-col sm:flex-row items-center justify-items-center gap-4 p-10 ">
         <div className="icon flex flex-col items-center gap-5">
-          <a href="https://github.com/S15jn">
+          <a href="https://github.com/S15jn" className='iconscale'>
             <FaGithub size={40} />
           </a>
-          <a href="https://www.linkedin.com/in/somyajain2002/">
+          <a href="https://www.linkedin.com/in/somyajain2002/" className='iconscale'>
             <RiLinkedinFill size={40} />
           </a>
         </div>
@@ -30,10 +30,10 @@ export default function Contact() {
         <div className="line border-l-2 h-20 hidden sm:block"></div>
 
         <div className="suggestion flex flex-col items-center gap-5">
-          <a href="mailto:somujain10@gmail.com" className="flex items-center gap-2 text-[#314158] hover:text-black transition duration-300">
+          <a href="mailto:somyajain853.com" className="flex items-center gap-2 text-[#314158] hover:text-[#5f61ff] transition duration-300">
             <MdEmail size={30} /> <span className="text-lg">somyajain853.com</span>
           </a>
-          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-black transition duration-300">
+          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-[#5f61ff] transition duration-300">
             Help me to improve <FaCodeFork size={30} />
           </a>
         </div>

@@ -89,6 +89,7 @@ img {
 }
 
 .logosvg {
+  max-width: 100%;
     background: transparent;
     border: none;
 }
@@ -150,7 +151,8 @@ img {
     }
   
     .logo-img {
-      width: 60vw;
+      /* width: 60vw; */
+      max-width: 90%;
     }
   
     .topgrid {
@@ -169,7 +171,10 @@ img {
     }
   
     .logo-img {
-      width: 70vw;
+      /* width: 70vw; */
+
+      max-width: 90%;
+    
     }
   
     .topgrid {
@@ -188,7 +193,9 @@ img {
     }
   
     .logo-img {
-      width: 70vw;
+      /* width: 70vw; */
+      max-width: 90%;
+    
     }
   
     .topgrid {

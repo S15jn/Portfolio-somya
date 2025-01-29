@@ -19,3 +19,8 @@
    margin: 2px 30vh;
    padding: 5px;
   }
+
+  .iconscale:hover{
+    transform: scale(1.2);
+    color:#5f61ff;
+  }
