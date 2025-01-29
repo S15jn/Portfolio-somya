@@ -58,7 +58,7 @@ export default function Certificateset({ certificates }) {
               <div className="btn-container">
                 
                  <button class="custom-btn btn-12"  onClick={() => handlePopupOpen(certificate)}
-                  className="button"><span>Click!</span><span>View</span></button>
+                 ><span>Click!</span><span>View</span></button>
                
               </div>
             </div>
