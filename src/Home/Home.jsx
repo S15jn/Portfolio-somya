@@ -3,7 +3,7 @@ import logo from './female.png';
 import './Home.css';
 import { MdWavingHand } from "react-icons/md";
 import { CircleGrid } from "react-awesome-shapes";
-import somyacv from "./somyafinally.pdf";
+import somyacv from "./Somya-Jain-Resume.pdf";
 
 export default function Home() {
   return (
